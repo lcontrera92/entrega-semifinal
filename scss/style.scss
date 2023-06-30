@@ -1,0 +1,102 @@
+body {
+    background: url("./Imagenes/caminito\\ logo\\ sin\\ fondo\\ negro.png") no-repeat center fixed #d2c1b7d7;
+}
+
+.redes {
+    width: fit-content;
+    background-color: rgba(211, 211, 211, 0.479);
+    float: right;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 100px;
+    width: 90%;
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.226);
+        display: block;
+
+        &:hover {
+            background-color: rgba(34, 135, 223, 0.473);
+        }
+    }
+}
+
+.recuadro {
+    background-color: rgba(0, 0, 0, 0.226);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgb(240, 236, 236);
+}
+
+.recuadroMiddle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    flex-wrap: wrap
+}
+
+.pieDePagina {
+    margin-top: 25px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.342);
+
+    p {
+        color: rgb(240, 236, 236);
+        float: right;
+        padding-right: 1175px;
+    }
+}
+
+.infot p {
+    background-color: rgba(0, 0, 0, 0.226);
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(240, 236, 236);
+}
+
+.CuadroServicios {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgb(17, 1, 1);
+}
+
+.carousel-inner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+
+.setUp {
+    background-color: rgba(0, 0, 0, 0.226);
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(240, 236, 236);
+}
+
+.Mpas {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;   
+}
+
+.Formulario {
+    margin-top: 100px;
+    text-align: center;
+    }
+
+.ContactoBox {
+    margin-top: 100px;
+    text-align: center;
+    }
+
